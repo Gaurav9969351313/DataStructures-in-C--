@@ -1,0 +1,41 @@
+﻿Build started 9/25/2016 1:14:47 PM.
+     1>Project "C:\Users\student\Desktop\BST\BST\BST.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestBST.cpp
+         TestBST.cpp
+     1>c:\users\student\desktop\bst\bst\testbst.cpp(17): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\student\desktop\bst\bst\tree.h(80): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+                 c:\users\student\desktop\bst\bst\tree.h(79) : while compiling class template member function 'void Tree<T>::add(T)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\student\desktop\bst\bst\testbst.cpp(20) : see reference to function template instantiation 'void Tree<T>::add(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\student\desktop\bst\bst\testbst.cpp(9) : see reference to class template instantiation 'Tree<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\student\desktop\bst\bst\tree.h(29): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\student\desktop\bst\bst\tree.h(27) : while compiling class template member function 'Node<T> *Tree<T>::addNode(Node<T> *,int)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\student\desktop\bst\bst\tree.h(80) : see reference to function template instantiation 'Node<T> *Tree<T>::addNode(Node<T> *,int)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\student\Desktop\BST\Debug\BST.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\student\Desktop\BST\Debug\BST.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\student\Desktop\BST\Debug\BST.lib" /MACHINE:X86 Debug\TestBST.obj
+         BST.vcxproj -> C:\Users\student\Desktop\BST\Debug\BST.exe
+     1>Done Building Project "C:\Users\student\Desktop\BST\BST\BST.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.77
